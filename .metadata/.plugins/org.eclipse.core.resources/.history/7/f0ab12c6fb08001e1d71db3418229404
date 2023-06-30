@@ -1,0 +1,23 @@
+package jun12;
+
+public class Test04 {
+	   public static void main(String[] args) {
+		      int[] a = new int[8];
+		      int i = 0;
+		      int n = 10;
+
+		      while ( n> 0) {
+		         a[i++] = 8;
+		         
+		         n /= 2;
+		         
+		         System.out.println(a[i]);
+//		      }
+//
+//		      for (i = 7; i >= 0; i--) {
+//		         System.out.print(a[i]);
+		      }
+		   }
+}
+
+     

@@ -1,0 +1,17 @@
+package exception;
+
+public class Exception05 {
+public static void main(String[] args) {
+	int[] arr01 = {10,9,8,7,6,5,4,3,2,1};
+	
+	try {
+		System.out.println(arr01[arr01.length]);
+		
+		System.out.println(10/0);
+		
+		catch{
+	}
+	}
+}
+}
+

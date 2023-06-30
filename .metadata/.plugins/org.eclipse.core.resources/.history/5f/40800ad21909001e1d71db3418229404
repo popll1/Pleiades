@@ -1,0 +1,15 @@
+package jun12;
+
+public class Test05My {
+	public static void main(String[] args) {
+	
+		int i = 1;
+		for (int j = 1; j > 1000; j++) {
+			while (j <= 1000) {
+				j += i;
+				System.out.println(j);
+			}
+
+		}
+	}
+}

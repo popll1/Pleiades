@@ -1,0 +1,21 @@
+package exception;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+//예외처리하기
+public class Exception03 {
+	public static void main(String[] args) {
+		
+		FileReader fr = null;
+		try {
+			fr = new FileReader("c:\\temp\\temp.txt");
+			System.out.println("파일이 있습니다.");
+			
+			
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+			System.out.println("파일이 없습니다. 확인해주세요");
+		}
+	}
+}

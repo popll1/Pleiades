@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class OneWeek { // OneWeek 클래스 생성
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("정수를 입력해주세요.");// 숫자를 입력받음.
+		int n = sc.nextInt();// 입력값은 n변수에 저장됨.
+
+		int i = 0; // 변수i는 0으로 초기화
+		int count = i--; // count = i 선언후 -1 감소
+		for (i = 0; i < count; i++) {// conut 값까지 출력
+		while (num(i) <= n) { // n 이하값을 계산
+			i++;// i의 증감식
+//    System.out.print(i);
+		}
+
+
+			System.out.print(num(i) + " "); // num가 i값을 가지고 호출, 계산값 출력
+		}
+
+	}
+
+	public static int num(int n) {
+
+		if (n <= 1) {
+			return n; // 1 보다 작을때 n번째 수를 반환
+		} else {
+			return num(n - 1) + num(n - 2); // 위가 아닐경우 수열계산
+		}
+	}
+}

@@ -1,0 +1,33 @@
+package iotest;
+//1 바이트씩 출력하기
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.OutputStream;
+
+public class WriteExample {
+	public static void main(String[] args) throws FileNotFoundException {
+		
+		OutputStream os = new FileOutputStream("c:/temp/test1.db");
+		
+		byte a = 10;
+		byte b = 20;
+		byte c = 30;
+		
+		os.write(a);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+}

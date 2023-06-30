@@ -1,0 +1,11 @@
+package threadEX;
+//p.553
+public class Thread03 {
+	int seq;
+	
+	public Thread03(int seq) {
+		this.seq = seq;
+		
+	}
+	public static void main (String[] args) {
+}

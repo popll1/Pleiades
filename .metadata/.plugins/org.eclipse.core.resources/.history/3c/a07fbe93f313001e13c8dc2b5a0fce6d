@@ -1,0 +1,14 @@
+package inner;
+//정적 멤버 클래스 408p
+
+class A{
+	class C{//static 클래스로 선언
+		public C() { //생성자
+			int field;//인스턴스변수
+			static int field2;
+		}
+	}
+}
+public class StaticClass02 {
+
+}

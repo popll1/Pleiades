@@ -1,0 +1,7 @@
+package thread;
+//익명객체로 만들기
+public class BeepPrintEx5 {
+	Thread thread = new Thread() {
+		
+	};
+}

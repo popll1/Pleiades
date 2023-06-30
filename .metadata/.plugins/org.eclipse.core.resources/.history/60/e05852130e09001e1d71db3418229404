@@ -1,0 +1,17 @@
+package jun12;
+
+//반목문을 제어합니다.
+public class For01 {
+	public static void main(String[] args) {
+
+		// 1~10까지 출력되는 반복문
+		for (int i = 1; i < 11; i++) {
+			System.out.println(i);
+			if (i == 5) {
+//			break;// 가장 가까운 반복문을 탈출합니다.
+				System.out.println("continue아래 문장 입니다.");
+				continue; // 이하 실행문을 무시하고 다시반복
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+public class For01 {
+	public static void main(String[] args) {
+	
+		for (int i = 10; i >= 0 ; i--) {// 0~4 
+			System.out.println(i + "발사"); //1
+			if (i == 0 ) {
+			System.out.println("발사"); //1

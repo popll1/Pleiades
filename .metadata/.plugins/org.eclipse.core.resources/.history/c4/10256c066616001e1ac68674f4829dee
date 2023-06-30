@@ -1,0 +1,42 @@
+package exam;
+	
+	class cat{ 
+		public int run() {
+			return (int)(Math.random() *5) + 1;
+		}
+		
+		
+		
+		public int run(int roomNumber) { 
+			
+			int result;
+			if(roomNumber ==1 ) { 
+				result = 2;
+			}else if(roomNumber == 5) { 
+				result = 4;
+			}else { 
+				if((int)(Math.random() * 2) == 1 ){
+				result = roomNumber + 1;
+				}else { 
+					result = roomNumber -1;
+					
+				}
+				
+			}
+			return result;
+		
+			
+		}
+	}
+	public class Trade { 
+		public static void main(String[] args) {
+			Cat cat = new Cat();
+			
+		}
+	}
+
+	
+	
+	
+	
+}

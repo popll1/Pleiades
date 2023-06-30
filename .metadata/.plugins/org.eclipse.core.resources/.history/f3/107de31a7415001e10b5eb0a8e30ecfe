@@ -1,0 +1,10 @@
+package map;
+
+import java.util.TreeMap;
+
+public class Map01 {
+	public static void main(String[] args) {
+		
+		TreeMap<Integer, String> map1 = new TreeMap<Integer, String>();
+	}
+}

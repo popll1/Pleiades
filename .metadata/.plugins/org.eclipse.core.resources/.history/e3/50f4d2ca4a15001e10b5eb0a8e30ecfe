@@ -1,0 +1,14 @@
+package iotest;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+
+public class CharactorConvertStreamEX {
+	public static void main(String[] args) {
+		
+	}
+	
+	public static void write(String str) { 
+		FileInputStream fos  = new FileOutputStream("c:/temp/test1.txt");
+	}
+}

@@ -1,0 +1,13 @@
+package com.poseidon.dto;
+//이제 전설의 싱글턴을...
+
+import java.net.ConnectException;
+
+public class DBconnection {
+	public ConnectException getConnectException() {
+		return null;
+		
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package sec02.exam02;
+
+public class TrycatchFinallyRuntimeExceptionExample {
+	public static void main(String[] args) {
+		String data1 = null;
+		String data2 = null;
+		try {
+			data1 = args[0];
+		
+	
+}
+}
+}

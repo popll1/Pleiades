@@ -1,0 +1,7 @@
+package iotest;
+
+public class WriteExample03 {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,59 @@
+package exam;
+
+import java.util.Scanner;
+
+class Cat{ 
+		public int run() {
+			return (int)(Math.random() *5) + 1;
+		}
+		
+		
+		
+		public int run(int roomNumber) { 
+			
+			int result;
+			if(roomNumber ==1 ) { 
+				result = 2;
+			}else if(roomNumber == 5) { 
+				result = 4;
+			}else { 
+				if((int)(Math.random() * 2) == 1 ){
+				result = roomNumber + 1;
+				}else { 
+					result = roomNumber -1;
+					
+				}
+				
+			}
+			return result;
+		
+			
+		}
+	}
+	public class Trade { 
+		public static void main(String[] args) {
+			Cat cat = new Cat();
+			int position = cat.run();
+			
+			Scanner sc = new Scanner(System.in);
+			while(true) { 
+				System.out.println("상자 번호 입력 : ");
+				int input = sc.nextInt();
+				if(position == input) { 
+				System.out.println("잡았습니다.");
+				
+				break;
+			} else {
+				position = cat.run(position);
+			}
+			System.out.println("하루가 지났습니다.");
+				}
+	sc.close();
+	
+	
+
+	
+	}
+	
+	
+}

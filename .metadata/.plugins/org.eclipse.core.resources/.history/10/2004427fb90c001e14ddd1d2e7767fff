@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class OneWeek {
+
+    public static void main(String[] args) {
+        
+    Scanner sc = new Scanner(System.in);
+    System.out.println("정수를 입력해주세요.");
+    int n = sc.nextInt();
+    	
+    int i=0;
+    while( num(i)<=n ){ //n 이하값을 계산
+        i++;
+    }
+    
+
+    int count = i--;     
+    for(i=0; i<count; i++){
+        System.out.print(num(i) + " ");
+    }
+
+}
+
+public static int num(int n){
+ 
+	if(n <= 1){
+        return n;	
+    }else{
+        return num(n-2) + num(n-1);
+    }
+}
+}

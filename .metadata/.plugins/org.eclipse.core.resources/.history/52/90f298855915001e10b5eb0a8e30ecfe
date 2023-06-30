@@ -1,0 +1,21 @@
+package excel;
+
+import java.io.File;
+import java.util.HashMap;
+
+import jxl.write.Label;
+import jxl.write.WritableSheet;
+import jxl.write.WritableWorkbook;
+
+public class Excel01 {
+	public static void main(String[] args) {
+		WritableWorkbook sheet =null;
+		WritableSheet sheet = null;
+		Label label = null;
+ 		File file = new File("c:/temp/excel01.xls");
+ 		
+ 		HashMap<String,String> map = new HashMap<String, String>();
+ 		map.put("이름", "홍길동");
+ 		map.put("나이", "230");;
+	}
+}

@@ -1,0 +1,14 @@
+package excel;
+
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class Excel02 {
+	public static String filepath = "c/:temp";
+	public static String fileNm = "excel02.xlsx";
+	
+	
+	public static void main(String[] args) {
+		//빈 Workbook 생성
+		XSSFWorkbook workbook = new XSSFWorkbook();
+	}
+}

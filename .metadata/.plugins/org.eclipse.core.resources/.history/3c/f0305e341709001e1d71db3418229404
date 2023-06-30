@@ -1,0 +1,13 @@
+package jun12;
+
+public class Test05My {
+	public static void main(String[] args) {
+		
+		for (int j = 1; j > 1000; j++) {
+			while (j %3 == 0 ) {
+				System.out.println(j);
+			}
+			
+		}
+	}
+}

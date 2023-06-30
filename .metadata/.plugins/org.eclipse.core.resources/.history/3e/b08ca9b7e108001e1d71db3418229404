@@ -1,0 +1,26 @@
+package jun12;
+
+import java.util.Arrays;
+
+//3x3 배열에 1~9까지 숫자 랜덤하게 입력하기
+public class Sam {
+	public static void main(String[] args) {
+		
+		int[][] sam = new int[3][3];
+		/*
+		 * [0,0] [0,1] 0,2[] 
+		 * [1,0] [1,1] [1,2] 
+		 * [2,0] [2,1] [2,2]
+		 */
+		int num = 1;
+		for (int i = 0; i < sam.length; i++) {
+			for (int j = 0; j < sam[i].length; j++) {
+				sam[i][j] = num++;
+				
+			}
+		}
+		for (int[] is : sam) {
+				System.out.println(Arrays.toString(is));
+		}
+	}
+}
